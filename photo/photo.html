@@ -1,0 +1,16 @@
+<template>
+    <!-- upload button -->
+    <lightning-card title="Upload a photo of the leak" icon-name="utility:upload">
+        <div class="slds-var-m-around_medium">
+            <lightning-input type="file" label="Select a photo of the leak" accept="image/*" 
+                multiple onchange={handleFilesSelected}> </lightning-input>
+        </div>
+    </lightning-card>
+
+    <!-- Uploaded photos preview -->
+    <lightning-card title="Uploaded Files">
+        <template for:each={processedData} for:item="item">
+            <img class="previewImage" key={item.id} src={item.data}/>
+        </template>
+    </lightning-card>
+</template>
