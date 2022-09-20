@@ -7,7 +7,7 @@ Included:
 - Sample LWC for Photo Upload
 - Sample Trigger to related Photo to Record
 
-REFERENCES 
+Helpful Links: 
 
 SFS Mobile Beta Group:
 https://trailhead.salesforce.com/trailblazer-community/groups/0F94S000000GwNLSA0
